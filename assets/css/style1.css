@@ -1,0 +1,29 @@
+/* Moblie :with <740px */
+@media only screen and (max-width:46.1875em) {
+    .profile-header>img{
+        height: 30px;
+    }
+    .under-header{
+        flex-direction: column;
+    }
+}
+/* Moblie :with >740px and *with < 1024px */
+@media only screen and  (min-width:46.25em)and (max-width:63.9375em) {
+    .profile-header>img{
+        height: 100px;
+    }
+    .under-header{
+        flex-direction: column;
+    }
+    .under-header-text{
+        flex-direction: column;
+    }
+    .under-header-text1
+    .under-header-text2{
+        width: 45%;
+    }
+}
+/* Moblie :with >= 1024px */
+@media only screen and (min-width:64em) {
+    
+}
