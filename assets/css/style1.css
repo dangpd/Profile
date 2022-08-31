@@ -128,6 +128,9 @@
         display: flex;
         font-weight: bold;
     }
+    .skill{
+        margin-top: 15px;
+    }
 }
 
 /*tabllet width >740px and *width < 1024px */
@@ -262,6 +265,9 @@
     .location {
         display: flex;
         font-weight: bold;
+    }
+    .skill{
+        margin-top: 15px;
     }
 }
 
