@@ -1,100 +1,161 @@
 /* Moblie :with <740px */
 @media only screen and (max-width:46.1875em) {
-    .profile-header img{
+    .profile-header img {
         height: 150px;
-    } 
-    .header img{
-        height: 350px;
-    }   
-    .under-header-img>img{
+    }
+
+    .header img {
+        height: 300px;
+    }
+
+    .under-header-img>img {
         height: 200px;
-    }
-    .under-header {
-        height: 240px;
-    }
-    .information{
-        display: inline;
-    }
-    .column1{
-        width: 100%;
-        margin-left:-70px;
+        width: 200px;
         text-align: center;
-        margin-top: -25px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block; 
     }
-    .column12{
-        margin-top: -35px;
-    }
-    .column2,.column3{
-        display: none;
-    }
-    nav>ul{
-        display: flex;
-        width: 95%;
-        margin-left: 1%;
-    }
-    nav ul li a {
-        font-size: 15px;
-        font-style: 15px;
-        line-height: 30px;
-    }
-    nav ul li a i{
-        font-size: 10px;
-        font-style: 10px;
-    }
-    section{
-        margin-top: 60px;
+
+    .under-header {
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
-        height: max-content;
+        height: 240px;
     }
-    .text{
-        width: 100%;
-    }
-    footer{
-        margin-top:1320px;
-        left: 0;
-        bottom:auto;
-        margin-left: 10%;
-        margin-right: 10%;
-        width: 83%;
-        height: 30px;
-    }
-    .blog1, .blog2{
-        display: block;
-    }
-    .blog-img>img{
-        width: 100%;
-    }
-    .blog-content{
+
+    .information {
+        margin-right: 0;
         margin-left: 0;
+        width: 100%;
+        display: inline;
     }
-    .contacthtml{
-        display:inline;
+
+    .under-header-text{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
     }
     
-    .email4, .birthday, .phone5, .location {
+    .column1 {
+        width: 100%;
+        margin-top: -25px;
+        margin-left: 0;
+        margin-right: 0;
+       
+    }
+    
+    .column1 p{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: -25px;
+    }
+
+    .column12 {
+        margin-top: 25px;
+        margin-left: 8%;
+        margin-right: 8%;
+        width: 82%;
+        max-width: 100%;
+    }
+    
+    .contact-item {
+        margin-right: 5px;
+        margin-left: 5px;
+        display: block;
+        width: 90%;
+    }
+
+    .column2,
+    .column3 {
+        display: none;
+    }
+
+    nav>ul {
+        display: flex;
+        width: 97%;
+        margin-left: 1%;
+        padding: 2px;
+        justify-content: space-around;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        font-style: 14px;
+        line-height: 30px;
+    }
+
+    nav ul li a i {
+        font-size: 14px;
+        font-style: 14px;
+    }
+
+    section {
+        margin-top: 60px;
+        margin-left: 1%;
+        width: 95.5%;
+        height: max-content;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 1320px;
+        left: 0;
+        bottom: auto;
+        margin-left: 1%;
+        width: 98%;
+        height: 30px;
+        position: absolute;
+        bottom: -102%;
+    }
+
+    .blog1,
+    .blog2 {
+        display: block;
+    }
+
+    .blog-img>img {
+        width: 100%;
+    }
+
+    .blog-content {
+        margin-left: 0;
+    }
+
+    .contacthtml {
+        display: inline;
+    }
+
+    .email4,
+    .birthday,
+    .phone5,
+    .location {
         display: flex;
         font-weight: bold;
     }
 }
+
 /* Moblie :with >740px and *with < 1024px */
-@media only screen and  (min-width:46.25em)and (max-width:63.9375em) {
-    .profile-header>img{
+@media only screen and (min-width:46.25em)and (max-width:63.9375em) {
+    .profile-header>img {
         height: 100px;
     }
-    .under-header{
+
+    .under-header {
         flex-direction: column;
     }
-    .under-header-text{
+
+    .under-header-text {
         flex-direction: column;
     }
-    .under-header-text1
-    .under-header-text2{
+
+    .under-header-text1 .under-header-text2 {
         width: 45%;
     }
 }
+
 /* Moblie :with >= 1024px */
-@media only screen and (min-width:64em) {
-    
-}
+@media only screen and (min-width:64em) {}
