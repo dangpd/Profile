@@ -90,7 +90,7 @@ body {
     cursor: pointer;
 }
 
-.contact-item.facebook, .contact-item.instagram, .contact-item.github{
+.contact-item.facebook, .contact-item.instagram, .contact-item.github, .contact-item.cv{
     background-color: #ffffff;
     border: 1px solid black;
 }
